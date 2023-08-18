@@ -1,13 +1,10 @@
 ---
-title: GithubPages 部署hexo 指南
-date: 2023-08-18 15:59:15
-tags:"blog"
+title: GithubPages 部署 Hexo 指南
 ---
-# GitHub Pages 部署 Hexo 指南
 
-1. 新建一个 github 仓库，仓库名：username.github.io
+1. 新建一个 github 仓库，仓库名：`username.github.io`
 
-   > username 为你github的用户名
+   > `username` 是你 `github` 的用户名
 
 2. 将hexo 文件夹中的文件推送到github默认分支，默认分支通常名为 `main`
 
@@ -113,7 +110,7 @@ tags:"blog"
    npm i
    ```
 
-6. 下载主题到项目
+6. 下载主题到项目 （clone 地址更换成你fork的地址）
 
    ```bash
    cd your-hexo-site
